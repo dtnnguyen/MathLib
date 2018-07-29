@@ -1,6 +1,5 @@
 
-#include "stdafx.h"
-#include "LinearInterpolate.h"
+#include "linearInterpolate.h"
 
 /**
 *

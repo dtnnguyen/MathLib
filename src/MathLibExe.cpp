@@ -1,9 +1,8 @@
 // MathLibExe.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include <iostream>
-#include "LinearInterpolate.h"
+#include "linearInterpolate.h"
 
 using namespace std;
 
@@ -21,7 +20,7 @@ int main()
 
 	y = linearInterpolate(x, x1, x2, y1, y2);
 
-	cout << "\nLInearinterpolated value for x: " << x  << "is " << y << endl;
+	cout << "\nLInearinterpolated value for x: " << x  << " is " << y << endl;
 
     return 0;
 }
