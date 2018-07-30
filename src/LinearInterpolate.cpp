@@ -1,5 +1,16 @@
-
 #include "linearInterpolate.h"
+
+#ifdef _WIN32
+#include <winsock.h>
+#else
+#include <arpa/inet.h>
+#endif
+
+// Test cross platform
+uint32_t testHtonl(uint32_t input) {
+    
+    return htonl(input);
+}
 
 /**
 *
