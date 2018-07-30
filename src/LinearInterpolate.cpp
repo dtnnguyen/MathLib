@@ -1,4 +1,4 @@
-#include "linearInterpolate.h"
+#include "LinearInterpolate.h"
 
 #ifdef _WIN32
 #include <winsock.h>

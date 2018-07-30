@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include "linearInterpolate.h"
+#include "LinearInterpolate.h"
 
 using namespace std;
 
